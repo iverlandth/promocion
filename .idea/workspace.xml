@@ -2,114 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34902c6c-61a4-418d-84ee-4bc66b3d6d24" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\proyectos\Copia de promociones\app\views\application\_deptos.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="D:\proyectos\Copia de promociones\log\development.log" afterPath="" />
       <change type="DELETED" beforePath="D:\proyectos\Copia de promociones\public\uploads\tmp\20130319-1938-3716-0164\descarga.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\proyectos\Copia de promociones\public\uploads\tmp\20130319-1938-3716-2349\descarga.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\proyectos\Copia de promociones\public\uploads\tmp\20130319-1938-3716-6983\descarga.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\proyectos\Copia de promociones\public\uploads\tmp\20130319-1944-3716-0158\67035_423970304363198_1967859683_n.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\proyectos\Copia de promociones\public\uploads\tmp\20130319-1955-3716-5246\577079_1.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/authentications/Copy of index.html.erb" afterPath="$PROJECT_DIR$/app/views/authentications/Copy of index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sliders/Copy of index.html.erb" afterPath="$PROJECT_DIR$/app/views/sliders/Copy of index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/Copy of show.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/Copy of show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/_construccion.html.erb" afterPath="$PROJECT_DIR$/app/views/application/_construccion.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/authentications/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/authentications/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/categoria/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/categoria/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ciudads/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/ciudads/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contacts/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/contacts/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cupons/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/cupons/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/departamentos/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/departamentos/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/descripcions/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/descripcions/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/estados/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/estados/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/personas/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/personas/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/promocions/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/promocions/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sliders/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/sliders/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/supercategoria/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/supercategoria/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/_formu.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/_formu.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/_menu1.html.erb" afterPath="$PROJECT_DIR$/app/views/application/_menu1.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/_menu2.html.erb" afterPath="$PROJECT_DIR$/app/views/application/_menu2.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/_menu3.html.erb" afterPath="$PROJECT_DIR$/app/views/application/_menu3.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/_new.html.erb" afterPath="$PROJECT_DIR$/app/views/application/_new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/_slide.html.erb" afterPath="$PROJECT_DIR$/app/views/application/_slide.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/_tooltip.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/_tooltip.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/acuerdo.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/acuerdo.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/authentication.rb" afterPath="$PROJECT_DIR$/app/models/authentication.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/authentications_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/authentications_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/buscacupo.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/buscacupo.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/buscamenu.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/buscamenu.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/buscapromo.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/buscapromo.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/buscar.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/buscar.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/categoria_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/categoria_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/principal/categoriasindex.html.erb" afterPath="$PROJECT_DIR$/app/views/principal/categoriasindex.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/categorium.rb" afterPath="$PROJECT_DIR$/app/models/categorium.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ciudads_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/ciudads_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/contact.rb" afterPath="$PROJECT_DIR$/app/models/contact.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/cupon.rb" afterPath="$PROJECT_DIR$/app/models/cupon.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/cupons_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/cupons_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/departamento.rb" afterPath="$PROJECT_DIR$/app/models/departamento.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/departamentos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/departamentos_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/descripcions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/descripcions_controller.rb" />
-      <change type="MODIFICATION" beforePath="D:\proyectos\Copia de promociones\log\development.log" afterPath="D:\proyectos\Copia de promociones\log\development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contacts/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/contacts/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/empresa.rb" afterPath="$PROJECT_DIR$/app/models/empresa.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/empresaimage_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/empresaimage_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/empresas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/empresas_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/estado.rb" afterPath="$PROJECT_DIR$/app/models/estado.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/estados_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/estados_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/formulario.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/formulario.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/acercade/index.html.erb" afterPath="$PROJECT_DIR$/app/views/acercade/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/authentications/index.html.erb" afterPath="$PROJECT_DIR$/app/views/authentications/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/categoria/index.html.erb" afterPath="$PROJECT_DIR$/app/views/categoria/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ciudads/index.html.erb" afterPath="$PROJECT_DIR$/app/views/ciudads/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/configuraciones/index.html.erb" afterPath="$PROJECT_DIR$/app/views/configuraciones/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contacts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contacts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cupons/index.html.erb" afterPath="$PROJECT_DIR$/app/views/cupons/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/departamentos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/departamentos/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/descripcions/index.html.erb" afterPath="$PROJECT_DIR$/app/views/descripcions/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/index.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/estados/index.html.erb" afterPath="$PROJECT_DIR$/app/views/estados/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/personas/index.html.erb" afterPath="$PROJECT_DIR$/app/views/personas/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/principal/index.html.erb" afterPath="$PROJECT_DIR$/app/views/principal/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/promocions/index.html.erb" afterPath="$PROJECT_DIR$/app/views/promocions/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sliders/index.html.erb" afterPath="$PROJECT_DIR$/app/views/sliders/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/supercategoria/index.html.erb" afterPath="$PROJECT_DIR$/app/views/supercategoria/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/list.html.erb" afterPath="$PROJECT_DIR$/app/views/users/list.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/muesempre.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/muesempre.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contacts/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/new.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/password_resets/new.html.erb" afterPath="$PROJECT_DIR$/app/views/password_resets/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/personas/new.html.erb" afterPath="$PROJECT_DIR$/app/views/personas/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/newempresa.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/newempresa.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/personas/newpersona.html.erb" afterPath="$PROJECT_DIR$/app/views/personas/newpersona.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/persona.rb" afterPath="$PROJECT_DIR$/app/models/persona.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/personas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/personas_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/presentacion.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/presentacion.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/principal_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/principal_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/promocion.rb" afterPath="$PROJECT_DIR$/app/models/promocion.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/promocions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/promocions_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ciudads/show.html.erb" afterPath="$PROJECT_DIR$/app/views/ciudads/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contacts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/contacts/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/empresas/show.html.erb" afterPath="$PROJECT_DIR$/app/views/empresas/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/personas/show.html.erb" afterPath="$PROJECT_DIR$/app/views/personas/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/slider.rb" afterPath="$PROJECT_DIR$/app/models/slider.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/sliderimage_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/sliderimage_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sliders_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sliders_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/supercategoria_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/supercategoria_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/supercategorium.rb" afterPath="$PROJECT_DIR$/app/models/supercategorium.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/departamentos/viewindex.html.erb" afterPath="$PROJECT_DIR$/app/views/departamentos/viewindex.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="promociones RC2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -159,24 +58,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="authentications_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/authentications_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categoria_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/categoria_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ciudads_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/ciudads_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -240,11 +121,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sliderimage_uploader.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sliderimage_uploader.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/uploaders/sliderimage_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="2" selection-start="1435" selection-end="1435" vertical-scroll-proportion="1.3663552">
+            <state line="46" column="2" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="27" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="presentacion.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/empresas/presentacion.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="23" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.76620823">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -270,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/empresas/buscapromo.html.erb" />
         <option value="$PROJECT_DIR$/app/views/empresas/buscamenu.html.erb" />
         <option value="$PROJECT_DIR$/app/views/acercade/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/categoria/index.html.erb" />
@@ -286,6 +186,7 @@
         <option value="$PROJECT_DIR$/app/controllers/ciudads_controller.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/empresaimage_uploader.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/sliderimage_uploader.rb" />
+        <option value="$PROJECT_DIR$/app/views/empresas/presentacion.html.erb" />
       </list>
     </option>
   </component>
@@ -399,42 +300,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="promociones RC2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Copia de promociones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locales" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="promociones RC2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Copia de promociones" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1531,7 +1396,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16136363" sideWeight="0.67540985" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37116563" sideWeight="0.60064936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37116563" sideWeight="0.60064936" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1604,24 +1469,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/slidesjquery.animate-colors-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/slidesjquery.easing.1.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/slidesjquery.skitter.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1719,8 +1566,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/uploaders/sliderimage_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="2" selection-start="1435" selection-end="1435" vertical-scroll-proportion="1.3663552">
+        <state line="46" column="2" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/empresas/presentacion.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="23" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.76620823">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
