@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34902c6c-61a4-418d-84ee-4bc66b3d6d24" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="D:\proyectos\Copia de promociones\log\development.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
     </list>
     <ignored path="promociones RC2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,17 +44,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_slide.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/application/_slide.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="67" selection-start="382" selection-end="382" vertical-scroll-proportion="0.37023592">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -140,6 +131,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="promociones RC2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="promociones RC2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Copia de promociones" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -768,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/_slide.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="67" selection-start="382" selection-end="382" vertical-scroll-proportion="0.37023592">
+        <state line="23" column="24" selection-start="867" selection-end="867" vertical-scroll-proportion="0.70961887">
           <folding />
         </state>
       </provider>
