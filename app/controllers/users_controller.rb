@@ -11,6 +11,9 @@ class UsersController < ApplicationController
       render "new"
     end
   end
+   def list
+     @users=User.all
+   end
   
   
 end
