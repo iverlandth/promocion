@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-   def new
+  def new
     @user = User.new
   end
 
@@ -11,9 +11,10 @@ class UsersController < ApplicationController
       render "new"
     end
   end
-   def list
-     @users=User.all
-   end
-  
-  
+
+  def list
+    @users=User.all
+  end
+
+
 end

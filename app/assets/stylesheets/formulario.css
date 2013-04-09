@@ -12,7 +12,7 @@
     margin: 0 auto;
     border-radius: 0 0 15px 15px;
     padding-bottom: 5px;
-    border-collapse: ;
+
 }
 .global form input[type = text], form input[type = password], form input[type = email], form input[type = url], form input[type = tel],form input[type = search], form textarea, form select{
     border: 2px solid #4d4d4d;

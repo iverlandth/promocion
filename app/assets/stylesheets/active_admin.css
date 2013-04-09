@@ -17,7 +17,6 @@ form input[type = submit] {
     background: -webkit-gradient(linear, left top, left bottom, from(#838a90), to(#414549));
     background: -moz-linear-gradient(-90deg, #838a90, #414549);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#838a90, endColorstr=#414549);
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#838a90, endColorstr=#414549);
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;
     border-radius: 20%;
@@ -52,6 +51,6 @@ form input[type=submit]:hover {
     background: -webkit-gradient(linear, left top, left bottom, from(#8b9297), to(#484d51));
     background: -moz-linear-gradient(-90deg, #8b9297, #484d51);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8b9297, endColorstr=#484d51);
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#8b9297, endColorstr=#484d51); }
+}
 form input[type=submit]:hover span.icon svg path, form input[type=submit]:hover span.icon svg polygon, form input[type=submit]:hover span.icon svg rect, form input[type=submit]:hover span.icon svg circle {
     fill: white !important; }

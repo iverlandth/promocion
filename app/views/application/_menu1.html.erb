@@ -45,11 +45,14 @@
             <li>
               <%= link_to "Contacto", :controller => "contacts", :action => "index" %>
             </li>
-        <% end %>
-        <% else %>
             <li>
-              <%= link_to "Publicite", :controller => "empresas", :action => "presentacion" %>
+              <%= link_to "Usuarios", :controller => "users", :action => "list" %>
             </li>
+        <% end %>
+    <% else %>
+        <li>
+          <%= link_to "Publicite", :controller => "empresas", :action => "presentacion" %>
+        </li>
         <li>
           <%= link_to "Contacto", :controller => "contacts", :action => "new" %>
         </li>

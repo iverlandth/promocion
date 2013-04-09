@@ -1,6 +1,6 @@
 class DepartamentosController < ApplicationController
   load_and_authorize_resource
-  
+
   # GET /departamentos
   # GET /departamentos.json
   def index
@@ -11,7 +11,7 @@ class DepartamentosController < ApplicationController
       format.json { render json: @departamentos }
     end
   end
-  
+
   def viewindex
     @departamentos = Departamento.all
 

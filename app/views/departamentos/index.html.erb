@@ -1,4 +1,4 @@
-<h1>Mostrando  departamentos</h1>
+<h1>Mostrando departamentos</h1>
 
 <table>
   <tr>
@@ -8,22 +8,22 @@
     <th></th>
   </tr>
 
-<% @departamentos.each do |departamento| %>
-  <tr>
-  	
-    <td><%= departamento.nombre %></td>
-    <td><%= link_to 'Ver', departamento %></td>
-	<% if can? :update, @departamentos %>
-    <td><%= link_to 'Editar', edit_departamento_path(departamento) %></td>
-	 <% end %>
-	      <% if can? :destroy, @departamentos %>
-    <td><%= link_to 'Eliminar', departamento, confirm: 'Are you sure?', method: :delete %></td>
-	<% end %>
-  </tr>
-<% end %>
+  <% @departamentos.each do |departamento| %>
+      <tr>
+
+        <td><%= departamento.nombre %></td>
+        <td><%= link_to 'Ver', departamento %></td>
+        <% if can? :update, @departamentos %>
+            <td><%= link_to 'Editar', edit_departamento_path(departamento) %></td>
+        <% end %>
+        <% if can? :destroy, @departamentos %>
+            <td><%= link_to 'Eliminar', departamento, confirm: 'Are you sure?', method: :delete %></td>
+        <% end %>
+      </tr>
+  <% end %>
 </table>
 
-<br />
- 
+<br/>
+
 <%= link_to 'Nuevo  Departamento', new_departamento_path %>
 

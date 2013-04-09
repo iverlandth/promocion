@@ -1,23 +1,23 @@
 <p id="notice"><%= notice %></p>
 
 <table border="2">
-	<tr >
-		<td rowspan="5"></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	
+  <tr>
+    <td rowspan="5"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+
 </table>
 <p>
   <b>Nombre:</b>
@@ -31,7 +31,7 @@
 
 <p>
   <b>Imagen:</b>
-  <%= image_tag @empresa.imagen , :size=>"200x200" %>
+  <%= image_tag @empresa.imagen, :size => "200x200" %>
 </p>
 
 <p>
@@ -44,6 +44,6 @@
   <%= @empresa.id_usuario %>
 </p>
 <div class="botontabla">
-<%= link_to 'Edit', edit_empresa_path(@empresa) %> |
-<%= link_to 'Back', empresas_path %>
+  <%= link_to 'Edit', edit_empresa_path(@empresa) %> |
+  <%= link_to 'Back', empresas_path %>
 </div>

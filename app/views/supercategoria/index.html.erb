@@ -9,17 +9,21 @@
     <th></th>
   </tr>
 
-<% @supercategoria.each do |supercategorium| %>
-  <tr>
-    <td><%= supercategorium.nombre %></td>
-    <td><%= supercategorium.id_categoria %></td>
-    <td><%= link_to 'Show', supercategorium %></td><% if can? :update, @supercategoria %>
-    <td><%= link_to 'Edit', edit_supercategorium_path(supercategorium) %></td><% end %> <% if can? :destroy, @supercategoria %>
-    <td><%= link_to 'Destroy', supercategorium, confirm: 'Are you sure?', method: :delete %></td><% end %>
-  </tr>
-<% end %>
+  <% @supercategoria.each do |supercategorium| %>
+      <tr>
+        <td><%= supercategorium.nombre %></td>
+        <td><%= supercategorium.id_categoria %></td>
+        <td><%= link_to 'Show', supercategorium %></td>
+        <% if can? :update, @supercategoria %>
+            <td><%= link_to 'Edit', edit_supercategorium_path(supercategorium) %></td>
+        <% end %>
+        <% if can? :destroy, @supercategoria %>
+            <td><%= link_to 'Destroy', supercategorium, confirm: 'Are you sure?', method: :delete %></td>
+        <% end %>
+      </tr>
+  <% end %>
 </table>
 
-<br />
+<br/>
 
 <%= link_to 'New Supercategorium', new_supercategorium_path %>

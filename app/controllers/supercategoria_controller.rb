@@ -1,7 +1,8 @@
 class SupercategoriaController < ApplicationController
   # GET /supercategoria
   # GET /supercategoria.json
-   load_and_authorize_resource
+  load_and_authorize_resource
+
   def index
     @supercategoria = Supercategorium.all
 

@@ -8,8 +8,23 @@
 <div class="border_box">
   <div class="box_skitter box_skitter_large">
     <ul>
+      <% rand_slides= rand(slidesclases.length) %>
+      <li>
+
+        <a href="#">
+          <%= image_tag "sie.jpg", :class => slidesclases[rand_slides] %>
+
+        </a>
+
+        <div class="label_text">
+          <p>
+            Sie SRL
+          </p>
+        </div>
+      </li>
       <% @sliders.each do |slider| %>
           <% rand_slides= rand(slidesclases.length) %>
+
           <li>
             <% @empresas = Empresa.find(:all, :conditions => {:id => " #{slider.id_empresa}"}) %>
             <% slider.id_empresa %>
@@ -17,13 +32,13 @@
                 <% @hola=empresa.id %>
             <% end %>
             sdasdfasd
-            <%= File.exists?( root_path+slider.image.to_s) %>
+            <%= File.exists?(root_path+slider.image.to_s) %>
             asdfasdf
             <a href=<%= "/empresas/#{@hola}" %>>
               <% if File.exists?(root_path+slider.image.to_s) %>
-                  <img src=<%= "/assets/logosie1.png" %>
+                  <img     src=<%= "/assets/logosie1.png" %>
               <% else %>
-                  <img src=<%= "'#{slider.image}'" %>
+                  <img    src=<%= "'#{slider.image}'" %>
               <% end %>
               <%= "class='#{slidesclases[rand_slides]}'" %>/></a>
 

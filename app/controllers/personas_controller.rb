@@ -1,7 +1,8 @@
 class PersonasController < ApplicationController
   # GET /personas
   # GET /personas.json
-   load_and_authorize_resource
+  load_and_authorize_resource
+
   def index
     @personas = Persona.all
 
@@ -10,11 +11,11 @@ class PersonasController < ApplicationController
       format.json { render json: @personas }
     end
   end
-  
+
   def newpersona
     @user = User.new
   end
-  
+
   def createpersona
 
     @user = User.new(params[:user])

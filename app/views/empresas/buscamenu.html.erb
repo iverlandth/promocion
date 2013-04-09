@@ -1,88 +1,124 @@
 <% if @promocions.blank? %>
 <% else %>
-<h2 align="center">Mostrando  Promociones</h2>
-<table>
-    <tr>
+    <h2 align="center">Mostrando Promociones</h2>
+    <table>
+      <tr>
         <th>
-            Nombre
+          Nombre
         </th>
         <th>
-            Descripcion
+          Descripcion
         </th>
         <th>
-            Fecha inicial
+          Fecha inicial
         </th>
         <th>
-            Fecha de finalizacion
+          Fecha de finalizacion
         </th>
         <th>
-            Empresa
+          Empresa
         </th>
-    </tr>
-    <% @promocions.each do |promo| %>
-    <tr>
-        <td>
-            <%= promo.nombre %>
-        </td>
-        <td>
-            <%= promo.descripcion %>
-        </td>
-        <td>
-            <%= promo.fechaini %>
-        </td>
-        <td>
-            <%= promo.fechafin %>
-        </td>
-        <td>
-        	
-            <% @hola = Empresa.find(:all, :conditions => {:id =>"#{promo.id_empresa}"}) %>
-            <% @hola.each do |c| %>
-            <%= link_to "#{c.nombre}", :controller => "empresas", :action => "show", :id =>"#{promo.id_empresa}" %>
-            <% end %>
-        </td>
-    </tr>
-    <% end %>
-</table>
+      </tr>
+      <% @promocions.each do |promo| %>
+          <tr>
+            <td>
+              <%= promo.nombre %>
+            </td>
+            <td>
+              <%= promo.descripcion %>
+            </td>
+            <td>
+              <%= promo.fechaini %>
+            </td>
+            <td>
+              <%= promo.fechafin %>
+            </td>
+            <td>
+
+              <% @hola = Empresa.find(:all, :conditions => {:id => "#{promo.id_empresa}"}) %>
+              <% @hola.each do |c| %>
+                  <%= link_to "#{c.nombre}", :controller => "empresas", :action => "show", :id => "#{promo.id_empresa}" %>
+              <% end %>
+            </td>
+          </tr>
+      <% end %>
+    </table>
 <% end %>
 <br/>
+<
 <% if @cupons.blank? %>
 <% else %>
-<h2 align="center">Mostrando Cupones</h2>
-<table>
-    <tr>
-     
+    <%= render "tooltip" %>
+    <h2 align="center">Mostrando Cupones</h2>
+    <table>
+      <tr>
+
         <th>
-            Descripcion
+          Descripcion
         </th>
         <th>
-            Fecha de inicio
+          Fecha de inicio
         </th>
         <th>
-            Fecha de finalizacion
+          Fecha de finalizacion
         </th>
         <th>
-            Empresa
+          Empresa
         </th>
-    </tr>
-    <% @cupons.each do |cupone| %>
-    <tr>
-      
-        <td>
-            <%= cupone.descripcion %>
-        </td>
-        <td>
-            <%= cupone.fechaini %>
-        </td>
-        <td>
-            <%= cupone.fechafin %>
-        </td>
-        <td>
-            <% @hola = Empresa.find(:all, :conditions => {:id =>"#{cupone.id_empresa}"}) %>
-            <% @hola.each do |c| %>
-            <%= link_to "#{c.nombre}", :controller => "empresas", :action => "show", :id =>"#{cupone.id_empresa}" %>
+      </tr>
+      <% @cupons.each do |cupone| %>
+          <tr>
+
+            <td>
+              <%= cupone.descripcion %>
+            </td>
+            <td>
+              <%= cupone.fechaini %>
+            </td>
+            <td>
+              <%= cupone.fechafin %>
+            </td>
+            <td>
+              <% @hola = Empresa.find(:all, :conditions => {:id => "#{cupone.id_empresa}"}) %>
+              <% @hola.each do |c| %>
+                  <% link_to "#{c.nombre}", :controller => "empresas", :action => "show", :id => "#{cupone.id_empresa}" %>
+                  <a class="tooltip" href="#"><%= c.nombre %>
+                    <span class="custom info">
+                    <font color="black">
+                      <em>Informacion</em>
+                      Horario de atencion: <%= c.horario %>
+                      <br>
+                      Direccion: <%= c.direccion %>
+                      <br>
+                      <% @departamentos = Departamento.find(:all, :conditions => {:id => " #{c.id_departamento}"}) %>
+                      <% van= "null" %>
+                      <% @departamentos.each do |departamento| %>
+                          <% van=departamento.nombre %>
+                      <% end %>
+                      Departamento: <%= van %>
+                    </font>
+                </span>
+                  </a>
+              <% end %>
+            </td>
+
+            <% if current_user %>
+                <% if (current_user.tipo == "cliente" || current_user.tipo == "Admin") %>
+                    <td>
+                      <%= link_to "Imprimir cupon", :format => "pdf", :controller => "cupons", :action => "index", :id => cupone.id %>
+
+                    </td>
+
+                <% end %>
+
+            <% else %>
+                <td>
+                  <%= link_to "Regístrese para acceder al cupon", signup_path %>
+                </td>
+
             <% end %>
-        </td>
-    </tr>
-    <% end %>
-</table>
+
+          </tr>
+      <% end %>
+    </table>
 <% end %>

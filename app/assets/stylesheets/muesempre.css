@@ -4,7 +4,7 @@ table{
 }
 th{
     color: #4d4d4d;
-    font-style: bold;
+
     border-bottom: 2px solid #000;
     text-align: left;
 }
@@ -21,7 +21,6 @@ td{
     background: -webkit-gradient(linear, left top, left bottom, from(#838a90), to(#414549));
     background: -moz-linear-gradient(-90deg, #838a90, #414549);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#838a90, endColorstr=#414549);
-    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#838a90, endColorstr=#414549);
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;
     border-radius: 20%;

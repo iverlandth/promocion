@@ -2,6 +2,7 @@ class ContactsController < ApplicationController
   # GET /contacts
   # GET /contacts.json
   load_and_authorize_resource
+
   def index
     @contacts = Contact.all
 

@@ -1,7 +1,8 @@
 class DescripcionsController < ApplicationController
   # GET /descripcions
   # GET /descripcions.json
-   load_and_authorize_resource
+  load_and_authorize_resource
+
   def index
     @descripcions = Descripcion.all
 

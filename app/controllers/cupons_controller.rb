@@ -10,7 +10,6 @@ class CuponsController < ApplicationController
       format.pdf do
 
         pdf = Prawn::Document.new(:page_size => "LETTER", :page_layout => :portrait)
-
         pdf.image "public/images/fcupon.png", :width => 200
 
         pdf.text " "
@@ -19,18 +18,18 @@ class CuponsController < ApplicationController
 
         #data = [["NOMBRE", "DETALLE", "PRECIO", "Imagen", "QR"]]
         @cupons.each do |cupon|
-          #data += [["sd", "asd", "asd", "asd", "prueba" ]]
+
           @empresa = Empresa.find(:all, :conditions => {:id => cupon.id_empresa})
 
           @empresa.each do |em|
-            pdf.image "public/#{em.imagen}", :width => 100,  :at => [200, 720]
+            pdf.image "public/#{em.imagen}", :width => 100, :at => [200, 720]
 
             @qr = RQRCode::QRCode.new("#{em.id}", :size => 4, :level => :h)
             png = @qr.to_img
             png.resize(190, 190).save("#{Rails.root}/public/uploads/empresa/imagen/#{em.id}/#{em.id}.png")
-            pdf.image "#{Rails.root}/public/uploads/empresa/imagen/#{em.id}/#{em.id}.png", :width => 60,  :at => [180, 700]
-            pdf.text_box "Direccion:"+em.direccion+"
-            Horarios de atencion:"+em.horario,
+            pdf.image "#{Rails.root}/public/uploads/empresa/imagen/#{em.id}/#{em.id}.png", :width => 60, :at => [180, 700]
+            pdf.text_box "Direccion:"+em.direccion.to_s+"
+            Horarios de atencion:"+em.horario.to_s,
                          :at => [80, 680],
                          :height => 100,
                          :width => 100, :size => 9
@@ -58,26 +57,7 @@ class CuponsController < ApplicationController
                        :width => 200, :size => 20
 
 
-
         end
-
-        # @cupons.each do |product|
-        #imagen = "public"+product.image_url.to_s
-        # image = "public/uploads/product/image_url/"+product.id.to_s+"/"+product.id.to_s+".png"
-        #hola = "Just <font size='18'>some</font> <b><i>inline</i></b>",  :inline_format => true
-
-        # data += [[product.title, product.descripcion.html_safe, product.price, {:image => imagen, :fit => [100, 200]}, {:image => image, :fit => [100, 200]}]]
-
-        #pdf.image "public/uploads/product/image_url/4/24-08-11-Tesco.png"
-
-        #end
-
-        # pdf.table [["Just <font size='18'>some</font> <b><i>inline</i></b>", "", ""],
-        #["<color rgb='FF00FF'>styles</color> being applied here", "", ""]],
-        #:cell_style => { :inline_format => true }
-
-
-        #pdf.table(data, :header => true, :column_widths => [70, 180, 60, 110, 110], :cell_style => {:border_width => 0})
         pdf.move_down 20
         pdf.text "El uso de este sitio web implica la aceptacion de los Terminos y Condiciones y de las Politicas de Privacidad de ahiteveo S.A.
 Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados esta sujeta a la verificacion de stock. Los precios online para los productos presentados/publicados en www.ahiteveo.com.bo y/o www.ahiteveo.com son validos exclusivamente para la compra via internet en las paginas antes mencionadas.

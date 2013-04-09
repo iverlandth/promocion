@@ -1,7 +1,8 @@
 class SlidersController < ApplicationController
   # GET /sliders
   # GET /sliders.json
-   load_and_authorize_resource
+  load_and_authorize_resource
+
   def index
     @sliders = Slider.all
 
