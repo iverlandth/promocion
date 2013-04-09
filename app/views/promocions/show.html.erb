@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @promocion.nombre %>
+</p>
+
+<p>
+  <b>Descripción:</b>
+  <%= @promocion.descripcion %>
+</p>
+
+<p>
+  <b>Fecha de inicio:</b>
+  <%= @promocion.fechaini %>
+</p>
+
+<p>
+  <b>Fecha de finalización:</b>
+  <%= @promocion.fechafin %>
+</p>
+
+<p>
+  <b>Id empresa:</b>
+  <%= @promocion.id_empresa %>
+</p>
+
+
+<%= link_to 'Editar', edit_promocion_path(@promocion) %> |
+<%= link_to 'Atras', promocions_path %>

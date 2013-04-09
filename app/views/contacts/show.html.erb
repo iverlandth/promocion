@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @contact.nombre %>
+</p>
+
+<p>
+  <b>Apellido:</b>
+  <%= @contact.apellido %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @contact.email %>
+</p>
+
+<p>
+  <b>Teléfono:</b>
+  <%= @contact.telefono %>
+</p>
+
+<p>
+  <b>Asunto:</b>
+  <%= @contact.asunto %>
+</p>
+
+<p>
+  <b>Mensaje:</b>
+  <%= @contact.mensaje %>
+</p>
+
+<div class="botontabla">
+<%= link_to 'Editar', edit_contact_path(@contact) %> |
+<%= link_to 'Atrás', contacts_path %>
+</div>
